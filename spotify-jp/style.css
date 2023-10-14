@@ -529,7 +529,21 @@ button:hover{
       background: none;
   }
 }
-@media (max-width: 500px){
+@media (max-width: 700px){
+  body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+ 
+    margin: 0;
+    margin-left: -12px;
+    margin-top: -12px;
+    padding: 0;
+   width: 100%;
+   background-color: #1FDF64;
+  }
   .titlecontainer h1{
       font-size: larger;
   }
@@ -543,10 +557,11 @@ button:hover{
     display: none;
   }
   .bell{
-    margin-left: 40px;
+    margin-left: 100px;
   }
   .maincontainer{
     width: 100%;
+    
   }
   .slide a{
     font-size: 10px;
@@ -556,25 +571,34 @@ button:hover{
   }
   
   .slide{
-    width: 80px;
+    width: 110px;
     box-sizing: border-box;
     overflow: hidden;
     height: 50px;
+   
   }
   .slidecontainer{
     width: 100%;
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    margin-left: 0;
+
+
+   
+   
     
   }
   .topmix{
    overflow: hidden;
    display: flex;
    flex-wrap: wrap;
+   margin-left: 10px;
     
   }
   .topmix_card{
-   width: 30%!important;
+   width: 160px!important;
+   padding-left: -20px;
    
   }
   .topmix_card p{
